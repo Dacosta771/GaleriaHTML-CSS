@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Galer&iacute;a para Diego</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Aquí va la estructura de la galería de fotos -->
+        <h1>Ponga aqu&iacute; el t&iacute;tulo y el color que sea!!</h1>
+        <ul class="galeria">
+            <li><a href="#img1"><img src="Valparaíso\1.jpg" alt="foto_1"></a></li>
+            <li><a href="#img2"><img src="Valparaíso\2.jpg" alt="foto_2"></a></li>
+            <li><a href="#img3"><img src="Valparaíso\3.jpg" alt="foto_3"></a></li>
+            <li><a href="#img4"><img src="Valparaíso\4.jpg" alt="foto_4"></a></li>
+            <li><a href="#img5"><img src="Valparaíso\6.jpg" alt="foto_5"></a></li>
+        </ul>
+        <h3><em>Nota para Diego: dado que solo me pediste el visor sencillo, no puse ningun
+                estilo al resto del documento y us&eacute; una elecci&oacute;n de colores aleatoria.
+                Ya t&uacute; le pones los estilos que te sirva. Muchas gracias.</em></h3>
+
+        <!-- Aquí va la estructura del visor de fotos. Dado que me pediste que no usara JS, vas a
+             necesitar una estructura <div class="visor"> por cada imagen de la galería y vincular
+             los "href" a las fotos respectivas (foto trasera y foto delantera, respectivamente) -->
+        <div class="visor" id="img1">
+            <div class="imagen_visor">
+                <a href="#img5"><</a>
+                <a href="#img2"><img src="Valparaíso\1.jpg" alt="foto_1"></a>
+                <a href="#img2">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="visor" id="img2">
+            <div class="imagen_visor">
+                <a href="#img1"><</a>
+                <a href="#img3"><img src="Valparaíso\2.jpg" alt="foto_1"></a>
+                <a href="#img3">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="visor" id="img3">
+            <div class="imagen_visor">
+                <a href="#img2"><</a>
+                <a href="#img4"><img src="Valparaíso\3.jpg" alt="foto_1"></a>
+                <a href="#img4">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="visor" id="img4">
+            <div class="imagen_visor">
+                <a href="#img3"><</a>
+                <a href="#img5"><img src="Valparaíso\4.jpg" alt="foto_1"></a>
+                <a href="#img5">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+        <div class="visor" id="img5">
+            <div class="imagen_visor">
+                <a href="#img4"><</a>
+                <a href="#img1"><img src="Valparaíso\6.jpg" alt="foto_1"></a>
+                <a href="#img1">></a>
+            </div>
+            <a class="cerrar" href="">X</a>
+        </div>
+    </body>
+</html>
